@@ -8,69 +8,90 @@
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+  </style>
+
+
 </head>
+<style>
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+</style>
 
 <body class="m-0">
-  <main class="bg-yellow-200 h-auto w-fit">
-    <div class="mx-5 py-12">
-      <nav class=" flex justify-start w-screen bg-white rounded-xl p-4">
+  <main class="h-auto md:h-screen" style="background-color:#FEEDBC ;">
+    <div class="mx-7 py-12 md:mx-16 h-full">
+      <nav class="flex justify-start bg-white rounded-full p-4 md:justify-center md:p-2">
         <img src="images/logo.png" class="w-10- h-10">
       </nav>
-      <div>
-        <img src="images/home pic.png" alt="">
-      </div>
-      <div>
-        <p class="mb-5 text-xl font-semibold text-orange-500">Lorem, ipsum dolor.</p>
-        <h1 class="text-black mb-12 text-4xl font-bold">Lorem ipsum<br> dolor sit.</h1>
-        <div class="text-black">
-          <div class="rounded-full w-fit flex p-5 gap-3 bg-white mb-5">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
-              class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-            </svg>
-            <p>cursus Integer</p>
+      <div class="h-full flex flex-col md:flex-row-reverse md:items-center md:justify-around">
 
-          </div>
-          <div class="rounded-full w-fit flex p-5 bg-white gap-3 mb-5">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
-              class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-            </svg>
-            <p>Integer Consequat</p>
-
-          </div>
-          <div class=" rounded-full w-fit flex p-5 gap-3 bg-white mb-5">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
-              class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-            </svg>
-            <p>Tellus Euismod Pellentesque </p>
-
-          </div>
-          <div class="rounded-full w-fit flex p-5 bg-white gap-3 mb-5">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
-              class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-            </svg>
-            <p>cursus Integer</p>
-
-          </div>
-
+        <div class="flex items-end">
+          <img src="images/home pic.png" alt="" class="shrink-0 md: md:h-96">
         </div>
-        <button class=" text-black rounded-full bg-orange-500 flex justify-between w-full p-5 ">
-          Lorem Ipsum
-          <img src="images/icon.png"> </button>
+        <div class="h-full flex flex-col md:w-fit md:justify-center">
+
+          <div>
+            <p class="mb-3 text-xl font-semibold text-orange-500 md:">Lorem, ipsum dolor.</p>
+            <h1 class="text-black mb-12 text-4xl font-bold font-Inter md:text-5xl lg:text-6xl">Cursus Integer <br>Consequat Tristique.</h1>
+          </div>
+
+          <div class="text-xs text-black flex flex-col md:flex-row md:gap-2">
+            <div class="rounded-full w-fit flex items-center p-4 gap-3 bg-white mb-3 md:p-3 md:mb-2 md:gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
+                class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <p>cursus Integer</p>
+
+            </div>
+            <div class="rounded-full w-fit flex items-center p-4 gap-3 bg-white mb-3 md:p-3 md:mb-2 md:gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
+                class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <p>Integer Consequat</p>
+            </div>
+          </div>
+          <div class=" text-xs text-black flex  flex-col md:flex-row md:gap-2">
+            <div class="rounded-full w-fit flex items-center p-4 gap-3 bg-white mb-3 md:p-3 md:mb-2 md:gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
+                class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <p>Tellus Euismod Pellentesque </p>
+
+            </div>
+            <div class="rounded-full w-fit flex items-center p-4 gap-3 bg-white mb-3 md:p-3 md:mb-2 md:gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
+                class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <p>cursus Integer</p>
+            </div>
+          </div>
+          <button class=" text-black rounded-full flex justify-between mt-8 w-full p-5 md:p-3 md:px-7 md:w-fit md:gap-20" style="background-color:#F9B800 ;">
+            Lorem Ipsum
+            <img src="images/icon.png"> 
+          </button>
+        </div>
       </div>
   </main>
 
-  <section class="bg-gray-900">
-    <div class="mx-5 pt-10">
+  <section style="background-color: #262626;">
+    <div class="mx-7 pt-10 pb-96">
       <div class="mb-12">
-        <p class="text-xl font-semibold text text-yellow-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <p class="text-xl font-semibold text" style="color: #F9B800;">Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit.
           Rerum a in labore consectetur aspernatur ducimus.</p>
         <h3 class="text-white font-bold my-8 text-4xl ">Cursus Integer Consequat ALiquam Tristique</h3>
         <button class="text-black font-bold rounded-full bg-white flex justify-between w-full py-5 px-8">
@@ -78,40 +99,42 @@
           <img src="images/icon.png">
         </button>
       </div>
+
+
       <div class="grid grid-cols-1">
-        <div class="bg-white p-12 rounded-[15%] mb-8">
+        <div class="bg-white p-16 rounded-[15%] mb-10">
           <img src="images/Icon-Images.png" alt="" class="mb-10">
           <h5 class="text-black font-bold text-5xl">1<span class="text-orange-600">.</span></h5>
           <p class="text-black font-bold text-2xl my-6">Lorem, ipsum.</p>
           <p class="text-black text-xl font-semibold">Lorem</p>
-          <p class="text-lg text-gray-400 font-sans">
+          <p class="text-lg text-gray-600 font-sans">
             Lorem, ipsum dolor.
           </p>
         </div>
-        <div class="bg-orange-400 p-12 rounded-[15%] mb-8">
+        <div class="p-16 rounded-[15%] mb-8" style="background-color: #F9B800;">
           <img src="images/icon-2.png" alt="" class="mb-10">
           <h5 class="text-black font-bold text-5xl">2<span class="text-white">.</span></h5>
           <p class="text-black font-bold text-2xl my-6">Lorem, ipsum.</p>
           <p class="text-black text-xl font-semibold">Lorem</p>
-          <p class="text-lg text-gray-400 font-sans">
+          <p class="text-lg text-gray-700 font-sans">
             Lorem, ipsum dolor.
           </p>
         </div>
-        <div class="bg-white p-12 rounded-[15%] mb-8">
+        <div class="bg-white p-16 rounded-[15%] mb-10">
           <img src="images/Icon-3.png" alt="" class="mb-10">
           <h5 class="text-black font-bold text-5xl">3<span class="text-orange-600">.</span></h5>
           <p class="text-black font-bold text-2xl my-6">Lorem, ipsum.</p>
           <p class="text-black text-xl font-semibold">Lorem</p>
-          <p class="text-lg text-gray-400 font-sans">
+          <p class="text-lg text-gray-600 font-sans">
             Lorem, ipsum dolor.
           </p>
         </div>
-        <div class="bg-orange-400 p-12 rounded-[15%] mb-8">
+        <div class="p-16 rounded-[15%] mb-8" style="background-color: #F9B800;">
           <img src="images/Icon-4.png" alt="" class="mb-10">
           <h5 class="text-black font-bold text-5xl">4<span class="text-white">.</span></h5>
           <p class="text-black font-bold text-2xl my-6">Lorem, ipsum.</p>
           <p class="text-black text-xl font-semibold">Lorem</p>
-          <p class="text-lg text-gray-400 font-sans">
+          <p class="text-lg text-gray-700 font-sans">
             Lorem, ipsum dolor.
           </p>
         </div>
@@ -119,88 +142,85 @@
     </div>
   </section>
 
-    <div class="bg-yellow-200 h-screen relative p-10">
-      <div class="w-full px-5 py-12 flex flex-col gap-8 bg-white rounded-3xl pb-10 absolute">
-        <img src="images/Man.png" alt="card-image p-5">
-        <div class="text-center">
-          <h3 class="text-black font-bold text-4xl ">What Our Customer Thought</h3>
-          <p class="my-8 font-light text-black text-lg">Euismod magna id purus eget nunc ligula suspendisse dui netus.
-            Condimentum blandit rutrum at mauris enim
-            pulvinar duis etiam duis. </p>
-          <h5 class="text-black font-bold text-2xl"> Holy Davidson</h5>
-        </div>
-        <button class="flex gap-8 justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
-            class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
-          </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
-            class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-          </svg>
-        </button>
+  <div class="mx-auto  relative p-8" style="background-color: #F9B800;">
+    <div class="-translate-y-1/2 w-full h-full px-5 py-12 flex flex-col gap-8 bg-white rounded-3xl pb-10">
+      <div>
+        <img src="images/Man.png" alt="card-image" class="p-5">
       </div>
+      <div class="text-center">
+        <h3 class="text-black font-bold text-4xl ">What Our Customer Thought</h3>
+        <p class="my-8 font-light text-black text-lg">Euismod magna id purus eget nunc ligula suspendisse dui netus.
+          Condimentum blandit rutrum at mauris enim
+          pulvinar duis etiam duis. </p>
+        <h5 class="text-black font-bold text-2xl"> Holy Davidson</h5>
+      </div>
+      <button class="flex gap-8 justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
+          class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+          class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+        </svg>
+      </button>
     </div>
+  </div>
 
 
-  <section class="bg-gray-800">
-    <div class="mx-5 py-16">
+  <section style="background-color: #262626;">
+    <div class="mx-7 py-16">
       <h3 class="mt-12 text-center text-white font-bold text-4xl ">Quam vehicula faucibus amet lorem. </h3>
       <p class="my-8 text-center text-xl font-semibold text text-white">Euismod magna id purus eget nunc ligula
         suspendisse dui netus. Condimentum blandit rutrum at mauris enim pulvinar duis etiam duis. Mauris fermentum
         praesent tellus euismod.</p>
-      <div class="flex mt-5 justify-between bg-white p-8 rounded-3xl">
-        <div>
-          <h5 class="text-black font-semibold text-2xl"> Holy Davidson</h5>
-          <p class="mt-6 font-light text-black text-lg">Euismod magna id purus eget nunc ligula suspendisse dui netus.
-            Condimentum blandit rutrum at mauris enim
-            pulvinar duis etiam duis. </p>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
-          class=" shrink-0 size-8">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
-        </svg>
-      </div>
-      <div class="flex justify-between items-center mt-5 bg-white p-8 rounded-3xl">
-        <div>
-          <h5 class="text-black font-semibold text-2xl"> Pellentesque tempus sed phasellus vel. </h5>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
-          class="shrink-0 size-8">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-        </svg>
-      </div>
-      <div class="flex items-center justify-between mt-5 bg-white p-8 rounded-3xl">
-        <div>
-          <h5 class="text-black font-semibold text-2xl"> Mauris fermentum praesent tellus euismod pellentesque urna ac
-            massa in. </h5>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
-          class="shrink-0 size-8">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-        </svg>
-      </div>
+      <div class="flex flex-col gap-4 text-black">
 
-      <div class="flex items-center justify-between mt-5 bg-white p-8 rounded-3xl">
-        <div>
-          <h5 class="text-black font-semibold text-2xl"> Vulputate et vulputate suspendisse natoque id tellus
-            consectetur pulvinar et. </h5>
+        <div class="collapse collapse-plus bg-white">
+          <input type="radio" name="my-accordion-3" checked="checked" />
+          <div class="collapse-title text-xl font-medium">Quam vehicula faucibus amet lorem. </div>
+          <div class="collapse-content">
+            <p>Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum blandit rutrum at mauris enim
+              pulvinar duis etiam duis. Mauris fermentum praesent tellus euismod.</p>
+          </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
-          class="shrink-0 size-8">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-        </svg>
+
+        <div class="collapse collapse-plus bg-white">
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title text-xl font-medium">Pellentesque tempus sed phasellus vel. </div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+
+        <div class="collapse collapse-plus bg-white">
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title text-xl font-medium">Mauris fermentum praesent tellus euismod pellentesque urna ac
+            massa in. </div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-plus bg-white">
+          <input type="radio" name="my-accordion-4" />
+          <div class="collapse-title text-xl font-medium">Vulputate et vulputate suspendisse natoque id tellus
+            consectetur pulvinar et. </div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
       </div>
 
     </div>
   </section>
 
-  <section class="bg-yellow-200">
-    <div class="text-black mx-5 py-8">
+  <section class="" style="background-color: #FEEDBC;">
+    <div class="text-black mx-7 py-8">
       <div class="flex flex-col">
         <h5 class="text-black font-semibold text-2xl"> Vulputate et vulputate suspendisse natoque id tellus consectetur
           pulvinar et. </h5>
-        <button class="mt-5 text-black rounded-full bg-orange-500 flex justify-between w-full p-5 ">
+        <button class="mt-5 text-black rounded-full flex justify-between w-full p-5 "
+          style="background-color: #F9B800;">
           Lorem Ipsum
           <img src="images/icon.png"> </button>
       </div>
@@ -209,8 +229,8 @@
         <p>
           Copyright © 2022 Lorem Ipsum.
         </p>
-          <p>Privacy Policy | Terms and Conditions
-          </p>
+        <p>Privacy Policy | Terms and Conditions
+        </p>
       </div>
 
     </div>
